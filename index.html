@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body
+    style="background-color: black; display: flex; justify-content: center; align-items: center; background-image: url('./anime-bg.jpg');">
+    <video src="./face.mp4" autoplay playsinline muted loop style="width: 50%;"></video>
+    <audio id="myAudio" src="./aghhhh.mp3" loop></audio>
+
+    <script>
+        function playAudio() {
+            document.getElementById("myAudio").play();
+        }
+
+        const myBtn = document.getElementById('myBtn');
+
+        setTimeout(() => {
+            myBtn.click();
+        }, 10000);
+    </script>
+
+</body>
+
+</html>
